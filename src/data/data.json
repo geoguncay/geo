@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "greeting": "Hello I'm",
+    "name": "GEO GUNCAY",
+    "title": "IT student",
+    "image": "/src/assets/me-about.jpg"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Soy un desarrollador web con experiencia en React y otras tecnologías."
+  }
+}
