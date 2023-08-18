@@ -1,7 +1,7 @@
 # Hi there, I'm Geovanny Guncay! 
 
 
-Open 👉 [Geo Guncay](https://geoguncay.github.io/geoguncay/) to view my portfolio. 🧑‍💻
+Open 👉 [Geo Guncay](https://geoguncay.github.io/geo/) to view my portfolio. 🧑‍💻
 </br>
 <p align="left">
   <img
