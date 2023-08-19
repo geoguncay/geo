@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import data from '../../data/data.json';
 import './hero.css';
 import Social from './Social';
+import me from '../../assets/me-about.jpg'
 
 class Hero extends Component {
 	render() {
@@ -18,7 +19,7 @@ class Hero extends Component {
 					</div>
 					<div className='hero_img'>
 						<img
-							src={data.hero.image}
+							src={me}
 							alt='geo'
 						/>
 					</div>
