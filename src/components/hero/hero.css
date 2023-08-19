@@ -27,14 +27,19 @@
 .social_icons {
   margin: 4rem 0 2rem;
   display: flex;
-	font-size: 2rem;
+  gap: .5rem;
 }
 .social_icon {
+  font-size: 2rem;
   padding: 1rem 1.2rem;
+  color: var(--primary-color-brown);
 }
 .social_icon:hover{
-  box-shadow: inset 0 0 0 1px var(--simple-box-shadow);
+  box-shadow: inset 0 0 0 1px var(	--primary-color-red);
+  border-radius: 7px;
+  transition: ease-in .3s;
 }
+
 .hero_img {
 	width: 20rem;
 	margin: 2rem auto ;

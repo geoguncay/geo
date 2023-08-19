@@ -12,7 +12,8 @@
 	--primary-bg-light: #ffffff;
 	--primary-bg-green: #3cb652;
 	--primary-bg-transparent: rgb(0 0 0 / 0%);
-	--simple-box-shadow: #ff4d4d;
+	--primary-color-brown: #a52a2a;
+	--primary-color-red: #ff4d4d;
 	--bg-img-texture: url(./assets/bg-texture.png);
 	--bg-gradient-red-20: url(./assets/bg-texture.png),
 		linear-gradient(to right, #42312c, #452225);
