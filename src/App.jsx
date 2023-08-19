@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Hero from './components/hero/Hero';
-import NotFound from './components/about/Not';
+import NotFound from './pages/Not';
+import Home from './pages/Home';
 
 function App() {
 	return (
@@ -8,12 +8,12 @@ function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route
-						path='imgeo/'
-						element={<Hero />}
+						path='geo/'
+						element={<Home />}
 					/>
 					<Route
 						path='*'
-						element={<NotFound/>}
+						element={<NotFound />}
 					/>
 				</Routes>
 			</BrowserRouter>

@@ -2,7 +2,6 @@
   "name": "geo",
   "private": true,
   "version": "0.0.1",
-  "homepage": "geo/",
   "type": "module",
   "scripts": {
     "dev": "vite",

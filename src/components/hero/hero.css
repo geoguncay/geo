@@ -7,22 +7,21 @@
 .hero_header {
   display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	padding: 2rem 0;
-  line-height: 3rem;
+  line-height: 1.5rem;
 }
 
 .greeting {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 .hero_name {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .hero_tittle {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .social_icons {
@@ -50,11 +49,5 @@
 @media only screen and (min-width: 768px){
   #hero{
     height: 100vh;
-  }
-  .hero_header{
-    padding: 5rem 0;
-  }
-  .social_icon {
-    padding: 1rem 2rem;
   }
 }

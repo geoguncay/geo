@@ -9,7 +9,8 @@ class Social extends Component {
 					className='social_icon'
 					rel='noreferrer'
 					href='https://www.linkedin.com/in/geoguncay/'
-					target={'_blank'}>
+					target={'_blank'}
+				>
 					{' '}
 					<BsLinkedin />{' '}
 				</a>
@@ -17,7 +18,8 @@ class Social extends Component {
 					className='social_icon'
 					rel='noreferrer'
 					href='https://github.com/geoguncay/'
-					target={'_blank'}>
+					target={'_blank'}
+				>
 					{' '}
 					<BsGithub />
 				</a>
@@ -25,7 +27,8 @@ class Social extends Component {
 					className='social_icon'
 					rel='noreferrer'
 					href='https://instagram.com/geogunky/'
-					target={'_blank'}>
+					target={'_blank'}
+				>
 					{' '}
 					<BsInstagram />
 				</a>
@@ -33,7 +36,8 @@ class Social extends Component {
 					className='social_icon'
 					rel='noreferrer'
 					href='https://youtube.com'
-					target={'_blank'}>
+					target={'_blank'}
+				>
 					{' '}
 					<BsYoutube />
 				</a>
