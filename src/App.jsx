@@ -4,20 +4,18 @@ import NotFound from './components/Not';
 
 function App() {
 	return (
-		<>
-			<BrowserRouter>
-				<Routes>
-					<Route
-						path='geo/'
-						element={<Home />}
-					/>
-					<Route
-						path='*'
-						element={<NotFound />}
-					/>
-				</Routes>
-			</BrowserRouter>
-		</>
+		<BrowserRouter>
+			<Routes>
+				<Route
+					path='geo/'
+					element={<Home />}
+				/>
+				<Route
+					path='*'
+					element={<NotFound />}
+				/>
+			</Routes>
+		</BrowserRouter>
 	);
 }
 

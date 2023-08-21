@@ -11,8 +11,9 @@ class Social extends Component {
 					href='https://www.linkedin.com/in/geoguncay/'
 					target={'_blank'}
 				>
-					{' '}
-					<BsLinkedin />{' '}
+					<div className='icon'>
+						<BsLinkedin />
+					</div>
 				</a>
 				<a
 					className='social_icon'
@@ -20,8 +21,9 @@ class Social extends Component {
 					href='https://github.com/geoguncay/'
 					target={'_blank'}
 				>
-					{' '}
-					<BsGithub />
+					<div className='icon'>
+						<BsGithub />
+					</div>
 				</a>
 				<a
 					className='social_icon'
@@ -29,8 +31,9 @@ class Social extends Component {
 					href='https://instagram.com/geogunky/'
 					target={'_blank'}
 				>
-					{' '}
-					<BsInstagram />
+					<div className='icon'>
+						<BsInstagram />
+					</div>
 				</a>
 				<a
 					className='social_icon'
@@ -38,8 +41,9 @@ class Social extends Component {
 					href='https://youtube.com'
 					target={'_blank'}
 				>
-					{' '}
-					<BsYoutube />
+					<div className='icon'>
+						<BsYoutube />
+					</div>
 				</a>
 			</div>
 		);
