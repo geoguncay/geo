@@ -8,7 +8,7 @@ export default function NotFound() {
 			<p>Sorry, we couldn’t find the page you’re looking for. </p>
 			<div className='btn_back'>
 				<div className='btn_404'>
-					<Link to='geo/'>Back Home</Link>
+					<Link to='/'>Back Home</Link>
 				</div>
 			</div>
 		</main>
