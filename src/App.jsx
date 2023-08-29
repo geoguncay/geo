@@ -4,7 +4,7 @@ import NotFound from './components/Not';
 
 const router = createHashRouter([
 	{
-		path: '/geo/',
+		path: '/',
 		element: <Home />,
 	},
 	{
