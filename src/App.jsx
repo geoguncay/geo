@@ -1,22 +1,20 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import Home from './components/Home';
 import NotFound from './components/Not';
 
+const router = createHashRouter([
+	{
+		path: '/geo/',
+		element: <Home />,
+	},
+	{
+		path: '*',
+		element: <NotFound />,
+	},
+]);
+
 function App() {
-	return (
-		<BrowserRouter>
-			<Routes>
-				<Route
-					path='geo/'
-					element={<Home />}
-				/>
-				<Route
-					path='*'
-					element={<NotFound />}
-				/>
-			</Routes>
-		</BrowserRouter>
-	);
+	return <RouterProvider router={router} />;
 }
 
 export default App;
