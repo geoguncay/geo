@@ -103,8 +103,8 @@ body {
 
 .btn_404:hover {
 	background: var(--bg-gradient-green-20);
-	transition: ease-in .2s;
-	transform: scale(.96);
+	transition: ease-in 0.2s;
+	transform: scale(0.96);
 }
 .btn_404 a {
 	text-decoration: none;

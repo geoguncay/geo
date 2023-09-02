@@ -2,6 +2,7 @@
 	background: var(--primary-bg-dark);
 	background-image: var(--bg-img-texture);
 	box-shadow: 0 1px rgba(255, 255, 255, 0.1);
+	min-height: 100vh;
 }
 
 .hero_header {
@@ -13,15 +14,15 @@
 }
 
 .greeting {
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 .hero_name {
-	font-size: 3rem;
+	font-size: 2.3rem;
 }
 
 .hero_tittle {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 .social_icons {
@@ -30,7 +31,7 @@
 	gap: 0.5rem;
 }
 .social_icon {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	padding: .9rem;
 	color: var(--primary-color-brown);
 }
@@ -45,7 +46,7 @@
 }
 
 .hero_img {
-	width: 20rem;
+	width: 15rem;
 	margin: 2rem auto;
 }
 
@@ -53,9 +54,23 @@
 	border-radius: 3em 0;
 	width: 100%;
 }
-
-@media only screen and (min-width: 768px) {
-	#hero {
-		height: 100vh;
+@media screen and (min-width: 768px) {
+	#hero{
+		/* height: 100vh; */
+	}
+	.hero_img{
+		width: 20rem;
+	}
+	.social_icon{
+		font-size: 2rem;
+	}
+	.greeting {
+		font-size: 1.2rem;
+	}
+	.hero_name {
+		font-size: 3rem;
+	}
+	.hero_tittle {
+		font-size: 1.5rem;
 	}
 }
