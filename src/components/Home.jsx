@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Hero from './hero/Hero';
 import About from './about/About';
+import Skills from './skills/Skills'
+
 
 class Home extends Component {
 	render() {
@@ -8,6 +10,7 @@ class Home extends Component {
 			<>
 				<Hero/>
 				<About/>
+				<Skills/>
 			</>
 		);
 	}

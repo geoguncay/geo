@@ -15,6 +15,7 @@
 	--primary-color-brown: #a52a2a;
 	--primary-color-red: #ff4d4d;
 	--bg-img-texture: url(./assets/bg-texture.png);
+	--bg-img-texture2: url(./assets/bg-texture2.png);
 	--bg-gradient-red-20: url(./assets/bg-texture.png),
 		linear-gradient(to right, #42312c, #452225);
 	--bg-gradient-red-70: url(./assets/bg-texture.png),

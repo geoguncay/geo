@@ -1,0 +1,40 @@
+#skills {
+	background: var(--primary-bg-light);
+	background-image: var(--bg-img-texture2);
+	background-size: 10px 10px;
+	color: var(--primary-text-dark);
+	line-height: 1.6rem;
+	text-shadow: 2px 2px 4px #000000;
+}
+.skills_container {
+	min-height: 100vh;
+	max-width: 80vw;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.skills_section {
+	margin: 0 auto;
+	max-width: 80vh;
+}
+.technologies {
+	border-radius: 1rem;
+	color: var(--primary-bg-light);
+	background: var(--primary-text-dark);
+}
+.technologies .icons {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.technologies .icon {
+	height: 6rem;
+	width: 6rem;
+	padding: 1rem;
+	margin: 1.4rem;
+	border: solid 1px var(--primary-text-dark);
+}
+.technologies .icon:hover {
+	border: solid 1px var(--primary-bg-light);
+	transition: 0.6s;
+}
