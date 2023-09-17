@@ -22,6 +22,12 @@
 		linear-gradient(to right, #b07157, #b93d3e);
 	--bg-gradient-green-20: url(./assets/bg-texture.png),
 		linear-gradient(to right, #19332e, #1f3529);
+	--bg-radial: radial-gradient(
+		circle at 72% 46%,
+		#17262f 0,
+		#18171c 57%,
+		#141414 100%
+	);
 
 	background: hsla(226, 69%, 30%, 1);
 

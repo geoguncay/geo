@@ -1,0 +1,40 @@
+#contact {
+	display: flex;
+	justify-content: center;
+}
+.contact_container {
+	border-radius: 1.5rem;
+	background: var(--bg-radial);
+}
+.contact_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: -3rem 0 3rem;
+}
+.button_contact {
+	margin-top: 1rem;
+	cursor: pointer;
+	font-size: 3rem;
+}
+
+.button_contact:hover {
+	color: var(--primary-bg-green);
+	transition: all 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 1024px) {
+	.contact_container {
+		width: 40vw;
+		margin-top: -10rem;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.contact_container {
+		margin-top: -2rem;
+		padding: 1.2rem;
+		width: 80vw;
+	}
+}
